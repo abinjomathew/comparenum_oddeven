@@ -1,0 +1,33 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/gradcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:textColor="@color/textcolor"
+        android:id="@+id/b1"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_shape"
+        android:text="Find Largest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="@color/textcolor"
+        android:id="@+id/b2"
+        android:layout_margin="10dp"
+        android:background="@drawable/button1_shape"
+        android:text="find smallest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="@color/textcolor"
+        android:id="@+id/b3"
+        android:layout_margin="10dp"
+        android:background="@drawable/button2_shape"
+        android:text="even or odd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
